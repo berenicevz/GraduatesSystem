@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D954F323FC200300F8AF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D954F223FC200300F8AF98 /* AppDelegate.swift */; };
+		91D954F523FC200300F8AF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D954F423FC200300F8AF98 /* SceneDelegate.swift */; };
+		91D954F723FC200300F8AF98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D954F623FC200300F8AF98 /* ContentView.swift */; };
+		91D954F923FC201400F8AF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D954F823FC201400F8AF98 /* Assets.xcassets */; };
+		91D954FC23FC201400F8AF98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D954FB23FC201400F8AF98 /* Preview Assets.xcassets */; };
+		91D954FF23FC201400F8AF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D954FD23FC201400F8AF98 /* LaunchScreen.storyboard */; };
+		91D9550A23FC201600F8AF98 /* holamundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9550923FC201600F8AF98 /* holamundoTests.swift */; };
+		91D9551523FC201600F8AF98 /* holamundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9551423FC201600F8AF98 /* holamundoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91D9550623FC201600F8AF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D954E723FC200200F8AF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D954EE23FC200200F8AF98;
+			remoteInfo = holamundo;
+		};
+		91D9551123FC201600F8AF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D954E723FC200200F8AF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D954EE23FC200200F8AF98;
+			remoteInfo = holamundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91D954EF23FC200300F8AF98 /* holamundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holamundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D954F223FC200300F8AF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D954F423FC200300F8AF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91D954F623FC200300F8AF98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91D954F823FC201400F8AF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D954FB23FC201400F8AF98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91D954FE23FC201400F8AF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D9550023FC201400F8AF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D9550523FC201600F8AF98 /* holamundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holamundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9550923FC201600F8AF98 /* holamundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holamundoTests.swift; sourceTree = "<group>"; };
+		91D9550B23FC201600F8AF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D9551023FC201600F8AF98 /* holamundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holamundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9551423FC201600F8AF98 /* holamundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holamundoUITests.swift; sourceTree = "<group>"; };
+		91D9551623FC201600F8AF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D954EC23FC200200F8AF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9550223FC201600F8AF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9550D23FC201600F8AF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91D954E623FC200200F8AF98 = {
+			isa = PBXGroup;
+			children = (
+				91D954F123FC200300F8AF98 /* holamundo */,
+				91D9550823FC201600F8AF98 /* holamundoTests */,
+				91D9551323FC201600F8AF98 /* holamundoUITests */,
+				91D954F023FC200300F8AF98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D954F023FC200300F8AF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D954EF23FC200300F8AF98 /* holamundo.app */,
+				91D9550523FC201600F8AF98 /* holamundoTests.xctest */,
+				91D9551023FC201600F8AF98 /* holamundoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D954F123FC200300F8AF98 /* holamundo */ = {
+			isa = PBXGroup;
+			children = (
+				91D954F223FC200300F8AF98 /* AppDelegate.swift */,
+				91D954F423FC200300F8AF98 /* SceneDelegate.swift */,
+				91D954F623FC200300F8AF98 /* ContentView.swift */,
+				91D954F823FC201400F8AF98 /* Assets.xcassets */,
+				91D954FD23FC201400F8AF98 /* LaunchScreen.storyboard */,
+				91D9550023FC201400F8AF98 /* Info.plist */,
+				91D954FA23FC201400F8AF98 /* Preview Content */,
+			);
+			path = holamundo;
+			sourceTree = "<group>";
+		};
+		91D954FA23FC201400F8AF98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91D954FB23FC201400F8AF98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91D9550823FC201600F8AF98 /* holamundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				91D9550923FC201600F8AF98 /* holamundoTests.swift */,
+				91D9550B23FC201600F8AF98 /* Info.plist */,
+			);
+			path = holamundoTests;
+			sourceTree = "<group>";
+		};
+		91D9551323FC201600F8AF98 /* holamundoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D9551423FC201600F8AF98 /* holamundoUITests.swift */,
+				91D9551623FC201600F8AF98 /* Info.plist */,
+			);
+			path = holamundoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D954EE23FC200200F8AF98 /* holamundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9551923FC201600F8AF98 /* Build configuration list for PBXNativeTarget "holamundo" */;
+			buildPhases = (
+				91D954EB23FC200200F8AF98 /* Sources */,
+				91D954EC23FC200200F8AF98 /* Frameworks */,
+				91D954ED23FC200200F8AF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = holamundo;
+			productName = holamundo;
+			productReference = 91D954EF23FC200300F8AF98 /* holamundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D9550423FC201600F8AF98 /* holamundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9551C23FC201600F8AF98 /* Build configuration list for PBXNativeTarget "holamundoTests" */;
+			buildPhases = (
+				91D9550123FC201600F8AF98 /* Sources */,
+				91D9550223FC201600F8AF98 /* Frameworks */,
+				91D9550323FC201600F8AF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D9550723FC201600F8AF98 /* PBXTargetDependency */,
+			);
+			name = holamundoTests;
+			productName = holamundoTests;
+			productReference = 91D9550523FC201600F8AF98 /* holamundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D9550F23FC201600F8AF98 /* holamundoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9551F23FC201600F8AF98 /* Build configuration list for PBXNativeTarget "holamundoUITests" */;
+			buildPhases = (
+				91D9550C23FC201600F8AF98 /* Sources */,
+				91D9550D23FC201600F8AF98 /* Frameworks */,
+				91D9550E23FC201600F8AF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D9551223FC201600F8AF98 /* PBXTargetDependency */,
+			);
+			name = holamundoUITests;
+			productName = holamundoUITests;
+			productReference = 91D9551023FC201600F8AF98 /* holamundoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D954E723FC200200F8AF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = holamundoenxcode;
+				TargetAttributes = {
+					91D954EE23FC200200F8AF98 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					91D9550423FC201600F8AF98 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 91D954EE23FC200200F8AF98;
+					};
+					91D9550F23FC201600F8AF98 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 91D954EE23FC200200F8AF98;
+					};
+				};
+			};
+			buildConfigurationList = 91D954EA23FC200200F8AF98 /* Build configuration list for PBXProject "holamundo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D954E623FC200200F8AF98;
+			productRefGroup = 91D954F023FC200300F8AF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D954EE23FC200200F8AF98 /* holamundo */,
+				91D9550423FC201600F8AF98 /* holamundoTests */,
+				91D9550F23FC201600F8AF98 /* holamundoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D954ED23FC200200F8AF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D954FF23FC201400F8AF98 /* LaunchScreen.storyboard in Resources */,
+				91D954FC23FC201400F8AF98 /* Preview Assets.xcassets in Resources */,
+				91D954F923FC201400F8AF98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9550323FC201600F8AF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9550E23FC201600F8AF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D954EB23FC200200F8AF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D954F323FC200300F8AF98 /* AppDelegate.swift in Sources */,
+				91D954F523FC200300F8AF98 /* SceneDelegate.swift in Sources */,
+				91D954F723FC200300F8AF98 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9550123FC201600F8AF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D9550A23FC201600F8AF98 /* holamundoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9550C23FC201600F8AF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D9551523FC201600F8AF98 /* holamundoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91D9550723FC201600F8AF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D954EE23FC200200F8AF98 /* holamundo */;
+			targetProxy = 91D9550623FC201600F8AF98 /* PBXContainerItemProxy */;
+		};
+		91D9551223FC201600F8AF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D954EE23FC200200F8AF98 /* holamundo */;
+			targetProxy = 91D9551123FC201600F8AF98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91D954FD23FC201400F8AF98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D954FE23FC201400F8AF98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91D9551723FC201600F8AF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D9551823FC201600F8AF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D9551A23FC201600F8AF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"holamundo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = holamundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itgs.holamundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91D9551B23FC201600F8AF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"holamundo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = holamundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itgs.holamundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91D9551D23FC201600F8AF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holamundoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itgs.holamundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holamundo.app/holamundo";
+			};
+			name = Debug;
+		};
+		91D9551E23FC201600F8AF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holamundoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itgs.holamundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holamundo.app/holamundo";
+			};
+			name = Release;
+		};
+		91D9552023FC201600F8AF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holamundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itgs.holamundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = holamundo;
+			};
+			name = Debug;
+		};
+		91D9552123FC201600F8AF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holamundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itgs.holamundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = holamundo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D954EA23FC200200F8AF98 /* Build configuration list for PBXProject "holamundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9551723FC201600F8AF98 /* Debug */,
+				91D9551823FC201600F8AF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9551923FC201600F8AF98 /* Build configuration list for PBXNativeTarget "holamundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9551A23FC201600F8AF98 /* Debug */,
+				91D9551B23FC201600F8AF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9551C23FC201600F8AF98 /* Build configuration list for PBXNativeTarget "holamundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9551D23FC201600F8AF98 /* Debug */,
+				91D9551E23FC201600F8AF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9551F23FC201600F8AF98 /* Build configuration list for PBXNativeTarget "holamundoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9552023FC201600F8AF98 /* Debug */,
+				91D9552123FC201600F8AF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91D954E723FC200200F8AF98 /* Project object */;
+}

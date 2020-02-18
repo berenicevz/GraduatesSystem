@@ -15,6 +15,7 @@
 		91D954BE23FB609700F8AF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D954BC23FB609700F8AF98 /* LaunchScreen.storyboard */; };
 		91D954C923FB609900F8AF98 /* GraduatesSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D954C823FB609900F8AF98 /* GraduatesSystemTests.swift */; };
 		91D954D423FB609900F8AF98 /* GraduatesSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D954D323FB609900F8AF98 /* GraduatesSystemUITests.swift */; };
+		91D954E423FB9B2B00F8AF98 /* logoitm.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D954E323FB9B2B00F8AF98 /* logoitm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		91D954CF23FB609900F8AF98 /* GraduatesSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraduatesSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D954D323FB609900F8AF98 /* GraduatesSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatesSystemUITests.swift; sourceTree = "<group>"; };
 		91D954D523FB609900F8AF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D954E323FB9B2B00F8AF98 /* logoitm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoitm.png; sourceTree = "<group>"; };
+		91D954E523FB9B2D00F8AF98 /* logotecnm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logotecnm.png; path = ../logotecnm.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		91D954A523FB608800F8AF98 = {
 			isa = PBXGroup;
 			children = (
+				91D954E523FB9B2D00F8AF98 /* logotecnm.png */,
+				91D954E323FB9B2B00F8AF98 /* logoitm.png */,
 				91D954B023FB608800F8AF98 /* GraduatesSystem */,
 				91D954C723FB609900F8AF98 /* GraduatesSystemTests */,
 				91D954D223FB609900F8AF98 /* GraduatesSystemUITests */,
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D954BE23FB609700F8AF98 /* LaunchScreen.storyboard in Resources */,
+				91D954E423FB9B2B00F8AF98 /* logoitm.png in Resources */,
 				91D954BB23FB609700F8AF98 /* Preview Assets.xcassets in Resources */,
 				91D954B823FB609700F8AF98 /* Assets.xcassets in Resources */,
 			);
