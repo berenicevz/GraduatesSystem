@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>870627004042-9fa91mcsv89loivp42rd0uphlf1e9ogh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.870627004042-9fa91mcsv89loivp42rd0uphlf1e9ogh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAT0d_0Le1dEja6xfmeHY4EkcExw2wr6Ww</string>
+	<key>GCM_SENDER_ID</key>
+	<string>870627004042</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>itgs.GraduatesSystem</string>
+	<key>PROJECT_ID</key>
+	<string>sistema-egresados</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sistema-egresados.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:870627004042:ios:9947b47a6e5e5fff202773</string>
+	<key>DATABASE_URL</key>
+	<string>https://sistema-egresados.firebaseio.com</string>
+</dict>
+</plist>
